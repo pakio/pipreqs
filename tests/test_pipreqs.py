@@ -221,7 +221,6 @@ class TestPipreqs(unittest.TestCase):
         self.assertFalse("models" in imports)
         self.assertFalse("FastAPI" in imports)
         self.assertFalse("sklearn" in imports)
-        self.assertFalse("hogehoge" in imports)
 
     def test_invalid_notebook(self):
         """
